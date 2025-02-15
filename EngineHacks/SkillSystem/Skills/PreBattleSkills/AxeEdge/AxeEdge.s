@@ -37,15 +37,15 @@ bl Trampoline
 cmp r0, #WTYPE_LANCE
 bne End
 
-@add +1 battle struct ATK/DEF to skill holder
+@add +2 battle struct ATK to skill holder
 mov r1, #0x5a
 ldrsh r0, [r4, r1] @atk
-add r0, #1
+add r0, #2
 strh r0, [r4,r1]
-mov r1, #0x5c
-ldrsh r0, [r4, r1] @def
-add r0, #1
-strh r0, [r4,r1]
+@ mov r1, #0x5c
+@ ldrsh r0, [r4, r1] @def
+@ add r0, #1
+@ strh r0, [r4,r1]
 
 End:
 pop {r4-r7, r15}

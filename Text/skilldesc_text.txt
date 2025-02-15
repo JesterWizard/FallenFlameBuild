@@ -1845,9 +1845,9 @@ enemies take and deal +1/-1 damage.[X]
 ## SD_LanceEdge
 Lance Edge: If unit is wielding a[N]
 lance, adjacent sword wielding[N]
-enemies take and deal +1/-1 damage.[X]
+enemies deal -2 damage.[X]
 
 ## SD_AxeEdge
 Axe Edge: If unit is wielding a[N]
 axe, adjacent lance wielding[N]
-enemies take and deal +1/-1 damage.[X]
+enemies take +2 Dmg.[X]
