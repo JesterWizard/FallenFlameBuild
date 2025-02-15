@@ -1421,6 +1421,18 @@
 // By Snerdels
 #define ArmsMasterID 255
 
+// Sword Edge: If unit is wielding a sword, adjacent axe wielding enemy units take and deal +1/-1 damage
+// By Jester
+#define SwordEdgeID 255
+
+// Lance Edge: If unit is wielding a lance, adjacent sword wielding enemy units take and deal +1/-1 damage
+// By Jester
+#define LanceEdgeID 255
+
+// Axe Edge: If unit is wielding an axe, adjacent lance wielding enemy units take and deal +1/-1 damage
+// By Jester
+#define AxeEdgeID 255
+
 //Biorhythm Skills: Double or halve biorhythm effects.
 //By Sme
 #define TempestID 255 //Requires Biorhythm
