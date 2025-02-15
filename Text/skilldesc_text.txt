@@ -1851,3 +1851,7 @@ enemies deal -2 damage.[X]
 Axe Edge: If unit is wielding a[N]
 axe, adjacent lance wielding[N]
 enemies take +2 Dmg.[X]
+
+## SD_DracoLord
+Draco Lord: Dragon enemies within 2 tiles[N]
+deal -4 damage and receive +4 damage.[X]

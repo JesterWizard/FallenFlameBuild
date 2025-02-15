@@ -340,6 +340,7 @@ NegatedSkillEntry(StoneBodyID)
 NegatedSkillEntry(SwordEdgeID)
 NegatedSkillEntry(LanceEdgeID)
 NegatedSkillEntry(AxeEdgeID)
+NegatedSkillEntry(DracoLordID)
 
 
 /*
