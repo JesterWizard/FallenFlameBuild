@@ -160,6 +160,6 @@ Text(Ch1ClosingText2)
 TEXTEND
 CALL $9EE2C4 //BGEnd
 */
-MNCH 0x2
+MNC2 0x2
 NoFade
 ENDA

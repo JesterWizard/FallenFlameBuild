@@ -1,0 +1,41 @@
+Class Skills:
+
+Sword Edge / Lance Edge / Axe Edge
+Adjacent Axe wielding foes take and deal +1/-1 Dmg.
+Adjacent Lance wielding foes take +2 Dmg.
+Adjacent Sword wielding foes deal -2 Dmg.
+
+Sure Stance
+Can counter attack any ranged attack from any distance.
+(So an attack by Bolting can be countered by an Iron Bow)
+
+Draco Lord
+Dragon foes within 3 tiles take and deal +4/-4 Dmg.
+
+
+Personal Skills:
+
+Woodfeller / Swashbuckler
+Reverses Avo terrain bonuses from adjacent Lance wielding foes.
+Reverses Avo terrain bonuses from adjacent Axe wielding enemies.
+
+Hunter's Sight
+Adjacent allies gain +15 Hit when attacking at 2 range.
+
+Warding Grace / Mystic Menace
+Adjacent magic wielding enemies deal -8 Dmg.
+Adjacent magic wielding enemies suffer -8 Res.
+
+Veteran Axe / Veteran Blade
+Adjacent Axe wielding allies gain WTA vs Axe wielding foes.
+Adjacent Sword wielding allies gain WTA vs Sword wielding foes.
+
+Guiding Eyes
+Adjacent allies gain +15 Hit when attacking at 3 range or more.
+(So targetting units with status staves, siege tomes, ballista or longbows, etc.)
+
+Mountainman
+Avo bonuses from terrain also become Hit bonuses.
+
+Superior Shot
+Grants WTA over Bow wielding enemies.
