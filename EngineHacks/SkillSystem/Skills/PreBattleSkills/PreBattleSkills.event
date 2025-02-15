@@ -488,6 +488,23 @@ Decapitator:
 POIN SkillTester
 WORD DecapitatorID
 
+ALIGN 4
+SwordEdge:
+#incbin "SwordEdge/SwordEdge.dmp"
+POIN SkillTester
+WORD SwordEdgeID
+
+ALIGN 4
+LanceEdge:
+#incbin "LanceEdge/LanceEdge.dmp"
+POIN SkillTester
+WORD LanceEdgeID
+
+ALIGN 4
+AxeEdge:
+#incbin "AxeEdge/AxeEdge.dmp"
+POIN SkillTester
+WORD AxeEdgeID
 
 #include "KeenFighter/Installer.event" 
 #include "FlankSwarmScale/Installer.event" 

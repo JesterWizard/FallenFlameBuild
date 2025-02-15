@@ -29,7 +29,10 @@
     #include "Events/WorldMapEvents.event"
 
     //Maps
-	#include "Maps/Tileset and Anims Installer.event"
+
+    /* Jester - Compiler couldn't find this so I commented it out for now */
+	// #include "Maps/Tileset and Anims Installer.event"
+    
     #include "Maps/MasterMapInstaller.event"
     #endif // USE_TEST_MAP
 	
