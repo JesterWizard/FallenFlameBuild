@@ -16,3 +16,9 @@ Nonconforming:
 #incbin "Nonconforming/Nonconforming.dmp"
 POIN SkillTester
 WORD NonconformingID
+
+ALIGN 4
+SuperiorShot:
+#incbin "SuperiorShot/SuperiorShot.dmp"
+POIN SkillTester
+WORD SuperiorShotID
