@@ -231,6 +231,21 @@ bool SkillTester(struct Unit* unit, u8 skillID) {
 bool NewAuraSkillCheck(struct Unit* unit, u8 skillID, int allyOption, int maxRange) {
     s8(*pAllegianceChecker)(int, int) = ((allyOption & 1) ? AreUnitsAllied : IsSameAllegiance);
 
+#if defined(SD_SwordEdge)
+    if (GetItemType(GetUnitEquippedWeapon(unit)) != ITYPE_SWORD && skillID == SD_SwordEdge)
+        return FALSE;
+#endif
+
+#if defined(SD_LanceEdge)
+    if (GetItemType(GetUnitEquippedWeapon(unit)) != ITYPE_LANCE && skillID == SD_LanceEdge)
+        return FALSE;
+#endif
+
+#if defined(SD_AxeEdge)
+    if (GetItemType(GetUnitEquippedWeapon(unit)) != ITYPE_AXE && skillID == SD_AxeEdge)
+        return FALSE;
+#endif
+
     if (skillID == 0)   {return TRUE;}
     if (skillID == 255) {return FALSE;}
 

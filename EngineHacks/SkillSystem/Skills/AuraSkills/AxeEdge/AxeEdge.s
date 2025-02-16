@@ -1,5 +1,5 @@
 .thumb
-.equ AxeEdgeID, SkillTester+4
+.equ AxeEdgeID, AuraSkillCheck+4
 
 WTYPE_AXE         = 0x02
 WTYPE_LANCE       = 0x01
@@ -10,26 +10,20 @@ push {r4-r7, lr}
 mov r4, r0 @atkr
 mov r5, r1 @dfdr
 
-@has AxeEdge
-ldr r0, SkillTester
+@check for skill
+CheckSkill:
+ldr r0, AuraSkillCheck
 mov lr, r0
-mov r0, r4 @attacker data
+mov r0, r4 @attacker
 ldr r1, AxeEdgeID
+mov r2, #3 @can't_trade
+mov r3, #1 @range
 .short 0xf800
 cmp r0, #0
 beq End
 
-@ Check skill holder is using an axe
+@ Check skill holder is using an lance
 mov r0, r4
-ldr r3, =GetEquippedWeapon
-bl Trampoline
-ldr r3, =GetWeaponType
-bl Trampoline
-cmp r0, #WTYPE_AXE
-bne End
-
-@ Check enemy unit is using a lance
-mov r0, r5
 ldr r3, =GetEquippedWeapon
 bl Trampoline
 ldr r3, =GetWeaponType
@@ -42,10 +36,6 @@ mov r1, #0x5a
 ldrsh r0, [r4, r1] @atk
 add r0, #2
 strh r0, [r4,r1]
-@ mov r1, #0x5c
-@ ldrsh r0, [r4, r1] @def
-@ add r0, #1
-@ strh r0, [r4,r1]
 
 End:
 pop {r4-r7, r15}

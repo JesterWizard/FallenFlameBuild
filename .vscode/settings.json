@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.txt": "markdown",
+        "skilltester.h": "c",
+        "bmphase.h": "c"
+    }
+}

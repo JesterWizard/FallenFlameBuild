@@ -107,6 +107,9 @@ AuraSkillEntry(BloodTideID)
 AuraSkillEntry(WhitePoolID)
 AuraSkillEntry(NightTideID)
 AuraSkillEntry(PastelVeilID)
+AuraSkillEntry(SwordEdgeID)
+AuraSkillEntry(LanceEdgeID)
+AuraSkillEntry(AxeEdgeID)
 AuraSkillEntry(DracoLordID)
 
 PUSH
