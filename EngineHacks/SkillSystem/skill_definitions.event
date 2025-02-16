@@ -1174,9 +1174,9 @@
 //Rally Skills: +4 to specified stat to allies within 2 tiles.
 //Author Unknown (Initial Commit)
 #define RallyStrID 70
-#define RallyMagID 71 //Requires Str/Mag Split
-#define RallySklID 72
-#define RallySpdID 73
+#define RallyMagID 255 //Requires Str/Mag Split
+#define RallySklID 255
+#define RallySpdID 255
 #define RallyLukID 76
 #define RallyDefID 74
 #define RallyResID 75
@@ -1423,15 +1423,15 @@
 
 // Sword Edge: If unit is wielding a sword, adjacent axe wielding enemy units take and deal +1/-1 damage
 // By Jester
-#define SwordEdgeID 255
+#define SwordEdgeID 71
 
 // Lance Edge: If unit is wielding a lance, adjacent sword wielding enemy units take and deal +1/-1 damage
 // By Jester
-#define LanceEdgeID 255
+#define LanceEdgeID 72
 
 // Axe Edge: If unit is wielding an axe, adjacent lance wielding enemy units take and deal +1/-1 damage
 // By Jester
-#define AxeEdgeID 255
+#define AxeEdgeID 73
 
 //Biorhythm Skills: Double or halve biorhythm effects.
 //By Sme

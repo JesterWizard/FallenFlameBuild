@@ -7,6 +7,7 @@ ALIGN 4
 
 EirikaLordSkillList:
 BYTE 1 CharismaID
+BYTE 00 00
 ALIGN 4
 
 EphraimGreatLordSkillList:
@@ -21,19 +22,23 @@ ALIGN 4
 
 CavalierSkillList:
 BYTE 1 SwapID
+BYTE 00 00
 ALIGN 4
 
 PaladinSkillList:
 BYTE 255 SwapID
 BYTE 1 ArdentSacrificeID
+BYTE 00 00
 ALIGN 4
 
 KnightSkillList:
 BYTE 1 CarefulCoverID
+BYTE 00 00
 ALIGN 4
 
 GeneralSkillList:
 BYTE 255 CarefulCoverID
+BYTE 00 00
 ALIGN 4
 
 ThiefSkillList:
@@ -42,18 +47,24 @@ BYTE 00 00
 ALIGN 4
 
 MercenarySkillList:
+BYTE 1 SwordEdgeID
 BYTE 00 00
 ALIGN 4
 
 HeroSkillList:
+BYTE 255 SwordEdgeID
+BYTE 1 DeathBlowID
 BYTE 00 00
 ALIGN 4
 
 MyrmidonSkillList:
+BYTE 1 SwordEdgeID
 BYTE 00 00
 ALIGN 4
 
 SwordmasterSkillList:
+BYTE 255 SwordEdgeID
+BYTE 1 DeathBlowID
 BYTE 00 00
 ALIGN 4
 
@@ -65,10 +76,12 @@ ALIGN 4
 
 ArcherSkillList:
 BYTE 1 HelpfulHandID
+BYTE 00 00
 ALIGN 4
 
 SniperSkillList:
 BYTE 255 HelpfulHandID
+BYTE 00 00
 ALIGN 4
 
 RangerSkillList:
@@ -99,6 +112,7 @@ ALIGN 4
 MageKnightSkillList:
 BYTE 255 SwapID
 BYTE 1 SolidarityID
+BYTE 00 00
 ALIGN 4
 
 BishopSkillList:
@@ -132,15 +146,19 @@ BYTE 00 00
 ALIGN 4
 
 FighterSkillList:
+BYTE 1 AxeEdgeID
 BYTE 00 00
 ALIGN 4
 
 WarriorSkillList:
+BYTE 255 AxeEdgeID
+BYTE 1 QuickDrawID
 BYTE 00 00
 ALIGN 4
 
 BrigandSkillList:
 BYTE 1 DesperationID
+BYTE 00 00
 ALIGN 4
 
 PirateSkillList:
@@ -150,6 +168,7 @@ ALIGN 4
 BerserkerSkillList:
 BYTE 255 DesperationID
 BYTE 1 WrathID
+BYTE 00 00
 ALIGN 4
 
 MonkSkillList:
@@ -185,6 +204,7 @@ BYTE 00 00
 ALIGN 4
 
 SoldierSkillList:
+BYTE 1 LanceEdgeID
 BYTE 00 00
 ALIGN 4
 
