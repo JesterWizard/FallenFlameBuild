@@ -1210,5 +1210,8 @@ ORG SkillIcon(LanceEdgeID)
 ORG SkillIcon(AxeEdgeID)
 #incbin "SkillIcons/AxeEdge.dmp"
 
+ORG SkillIcon(DracoLordID)
+#incbin "SkillIcons/Acrobat.dmp"
+
 ORG SkillIcons+0x8000
 

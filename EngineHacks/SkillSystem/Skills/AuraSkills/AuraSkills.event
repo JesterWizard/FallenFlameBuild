@@ -178,5 +178,11 @@ Pathfinder:
 POIN AuraSkillCheck
 WORD PathfinderID
 
+ALIGN 4
+DracoLord:
+#incbin "DracoLord/DracoLord.dmp"
+POIN NewAuraSkillCheck
+WORD DracoLordID
+
 #include "ClassTypeSkills/ClassTypeSkills.event"
 

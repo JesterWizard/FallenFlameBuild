@@ -1433,6 +1433,10 @@
 // By Jester
 #define AxeEdgeID 73
 
+// Draco lord: Dragon enemies within three spaces take and deal +4/-4 damage.
+// By Jester
+#define DracoLordID 2555
+
 //Biorhythm Skills: Double or halve biorhythm effects.
 //By Sme
 #define TempestID 255 //Requires Biorhythm
