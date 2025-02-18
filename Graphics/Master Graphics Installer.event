@@ -28,3 +28,5 @@ POP
 
 #include "BattleScreen/Installer.event"
 #include "CSAFE8/Master Spell Animation Installer.event"
+
+#include "ItemIcons/Installer.event"
