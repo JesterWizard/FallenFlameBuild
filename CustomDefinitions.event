@@ -85,5 +85,6 @@
 #define Wind_index 0x1c
 
 // Music Label Defs
-#define BlumariDew 0x9 //Replaces Distant Roads
+#define FEMainTheme 0x43 //Opening theme
+#define BlumariDew 0x9 //Distant Roads
 

@@ -33,6 +33,9 @@
 SongTable(BlumariDew,songBlumariDew,MapMusicGroup)
 #include "BlumariDew.event"
 
+SongTable(FEMainTheme,songFEMainTheme,MapMusicGroup)
+#include "FEMainTheme.event"
+
 //SongTable(FreshStrike,songFreshStrike,MapMusicGroup)
 //#include "FreshStrike.event"
 
