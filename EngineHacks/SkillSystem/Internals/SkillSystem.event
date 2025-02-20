@@ -341,6 +341,7 @@ NegatedSkillEntry(SwordEdgeID)
 NegatedSkillEntry(LanceEdgeID)
 NegatedSkillEntry(AxeEdgeID)
 NegatedSkillEntry(DracoLordID)
+NegatedSkillEntry(SuperiorShotID)
 
 
 /*
