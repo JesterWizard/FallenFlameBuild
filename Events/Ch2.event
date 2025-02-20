@@ -59,6 +59,7 @@ ENDA
 
 CharacterBasedEvents:
 CharacterEventBothWays(0x7, RecruitTalk, Wren, Innes)
+CharacterEventBothWays(0x8, RecruitTalk, Nuri, Innes)
 END_MAIN
 
 RecruitTalk:
