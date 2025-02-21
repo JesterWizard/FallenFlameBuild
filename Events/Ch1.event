@@ -93,7 +93,7 @@ UNIT
 
 NewCrew:
 UNIT Vanessa Priest 0x00 Level(1, Ally, 0) [12,10] 0x00 0x00 0x0 0x00 [Heal, Vulnerary] NoAI 
-UNIT Ross Soldier 0x00 Level(4, Ally, 0) [12,11] 0x00 0x00 0x0 0x00 [IronLance, BraveLance] NoAI 
+UNIT Ross Soldier 0x00 Level(4, Ally, 0) [12,11] 0x00 0x00 0x0 0x00 [IronLance, BraveLance, Vulnerary] NoAI 
 UNIT
 
 Bad:

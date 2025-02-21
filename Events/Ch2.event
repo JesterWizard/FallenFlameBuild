@@ -113,7 +113,7 @@ UNIT
 
 NewCrew:
 UNIT Iara Mage_F Wren Level(1, Ally, 0) [6,6] 0x00 0x00 0x0 0x00 [Wind, Sleet, Vulnerary] NoAI 
-UNIT Nuri AxeCavF Wren Level(1, Ally, 0) [6,5] 0x00 0x00 0x0 0x00 [IronAxe, SteelAxe] NoAI 
+UNIT Nuri AxeCavF Wren Level(1, Ally, 0) [6,5] 0x00 0x00 0x0 0x00 [IronAxe, SteelAxe, Vulnerary] NoAI 
 UNIT Gad Thief Wren Level(4, Ally, 0) [8,5] 0x00 0x00 0x0 0x00 [IronSword, Vulnerary] NoAI 
 UNIT Fado Swordmaster Wren Level(10, NPC, 0) [7,8] 0x00 0x00 0x0 0x00 [IronSword, Vulnerary] AttackInRangeAI
 UNIT Ismaire Queen Wren Level(1, NPC, 0) [7,4] 0x00 0x00 0x0 0x00 [0x00] DoNothing  
@@ -131,7 +131,7 @@ UNIT 0x80 SwordCav Wizvil Level(1, Enemy, 1) [1,14] 0x00 0x00 0x0 0x00 [SteelSwo
 UNIT 0x80 SwordCav Wizvil Level(1, Enemy, 1) [11,14] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
 UNIT 0x80 SwordCav Wizvil Level(1, Enemy, 1) [10,13] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
 UNIT 0x80 Barbarian Wizvil Level(1, Enemy, 1) [0,0] 0x00 0x00 0x0 0x00 [SteelAxe] [0x0,0xE, 0xC, 0x0]
-UNIT Innes LanceCav Wizvil Level(1, Enemy, 0) [3,6] 0x00 0x00 0x0 0x00 [SteelLance, Horseslayer] DoNothing 
+UNIT Innes LanceCav Wizvil Level(1, Enemy, 0) [3,6] 0x00 0x00 0x0 0x00 [SteelLance, Horseslayer, Vulnerary] DoNothing 
 UNIT
 
 Wave1:

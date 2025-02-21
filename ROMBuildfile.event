@@ -34,8 +34,7 @@
 
     //Maps
 
-	// #include "Maps/Tileset and Anims Installer.event"
-    
+	#include "Maps/Tileset and Anims Installer.event" 
     #include "Maps/MasterMapInstaller.event"
     #endif // USE_TEST_MAP
 	
