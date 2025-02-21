@@ -22,7 +22,7 @@ mov r3, #1 @range
 cmp r0, #0
 beq End
 
-@ Check skill holder is using an lance
+@ Check enemy is using an lance
 mov r0, r4
 ldr r3, =GetEquippedWeapon
 bl Trampoline
@@ -45,6 +45,6 @@ Trampoline:
 
 .align
 .ltorg
-SkillTester:
-@Poin SkillTester
+AuraSkillCheck:
+@Poin AuraSkillCheck
 @WORD AxeEdgeID

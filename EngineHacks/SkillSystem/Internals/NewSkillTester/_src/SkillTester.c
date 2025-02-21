@@ -1,4 +1,56 @@
 #include "SkillTester.h"
+#include "skill_definitions.event"
+
+s8 AreUnitsAllied(int left, int right);
+s8 AreUnitsAllied(int left, int right) {
+    int a = left & 0x80;
+    int b = right & 0x80;
+    return (a == b);
+}
+s8 IsSameAllegiance(int left, int right);
+s8 IsSameAllegiance(int left, int right) {
+    int ret;
+    if ((left & 0xc0) == (right & 0xc0)) {
+        ret = 1;
+    } else {
+        ret = 0;
+    };
+    return ret;
+}
+
+struct UnitUsageStats {
+    /* 000 */ unsigned lossAmt     : 8;
+    /* 008 */ unsigned favval      : 16;
+    /* 024 */ unsigned actAmt      : 8;
+    /* 032 */ unsigned statViewAmt : 8;
+    /* 040 */ unsigned deathLoc    : 6;
+    /* 046 */ unsigned deathTurn   : 10;
+    /* 056 */ unsigned deployAmt   : 6;
+    /* 062 */ unsigned moveAmt     : 10;
+    /* 072 */ unsigned deathCause  : 4;
+    /* 076 */ unsigned expGained   : 12;
+    /* 088 */ unsigned winAmt      : 10;
+    /* 098 */ unsigned battleAmt   : 12;
+    /* 110 */ unsigned killerPid   : 9;
+    /* 119 */ unsigned deathSkirm  : 1;
+    /* 120 */ /* 8bit pad */
+} BITPACKED;
+
+#define BWL_ARRAY_NUM 0x46
+#define EWRAM_DATA __attribute__((section("ewram_data")))
+EWRAM_DATA struct UnitUsageStats gPidStatsData[BWL_ARRAY_NUM] = {0};
+#define gBWLDataArray (&gPidStatsData[0])
+
+struct UnitUsageStats* GetPidStats(u8 pid);
+inline struct UnitUsageStats *GetPidStats(u8 pid)
+{
+    if (pid >= BWL_ARRAY_NUM)
+        return 0;
+    else if (0 == GetCharacterData(pid)->affinity)
+        return 0;
+    else
+        return &gBWLDataArray[pid];  
+}
 
 /*Helper functions*/
 static int  absolute(int value)        {return value < 0 ? -value : value;}
@@ -231,18 +283,18 @@ bool SkillTester(struct Unit* unit, u8 skillID) {
 bool NewAuraSkillCheck(struct Unit* unit, u8 skillID, int allyOption, int maxRange) {
     s8(*pAllegianceChecker)(int, int) = ((allyOption & 1) ? AreUnitsAllied : IsSameAllegiance);
 
-#if defined(SD_SwordEdge)
-    if (GetItemType(GetUnitEquippedWeapon(unit)) != ITYPE_SWORD && skillID == SD_SwordEdge)
+#if defined(SwordEdgeID)
+    if (skillID == SwordEdgeID && GetItemType(GetUnitEquippedWeapon(unit)) != ITYPE_SWORD)
         return FALSE;
 #endif
 
-#if defined(SD_LanceEdge)
-    if (GetItemType(GetUnitEquippedWeapon(unit)) != ITYPE_LANCE && skillID == SD_LanceEdge)
+#if defined(LanceEdgeID)
+    if (skillID == LanceEdgeID && GetItemType(GetUnitEquippedWeapon(unit)) != ITYPE_LANCE)
         return FALSE;
 #endif
 
-#if defined(SD_AxeEdge)
-    if (GetItemType(GetUnitEquippedWeapon(unit)) != ITYPE_AXE && skillID == SD_AxeEdge)
+#if defined(AxeEdgeID)
+    if (skillID == AxeEdgeID && GetItemType(GetUnitEquippedWeapon(unit)) != ITYPE_AXE)
         return FALSE;
 #endif
 

@@ -1,5 +1,5 @@
 .thumb
-.equ LanceEdgeID, SkillTester+4
+.equ LanceEdgeID, AuraSkillCheck+4
 
 WTYPE_LANCE       = 0x01
 WTYPE_SWORD       = 0x00
@@ -10,16 +10,19 @@ push {r4-r7, lr}
 mov r4, r0 @atkr
 mov r5, r1 @dfdr
 
-@has LanceEdge
-ldr r0, SkillTester
+@check for skill
+CheckSkill:
+ldr r0, AuraSkillCheck
 mov lr, r0
-mov r0, r4 @attacker data
+mov r0, r4 @attacker
 ldr r1, LanceEdgeID
+mov r2, #3 @can't_trade
+mov r3, #1 @range
 .short 0xf800
 cmp r0, #0
 beq End
 
-@ Check skill holder is using a SWORD
+@ Check enemy is using a SWORD
 mov r0, r4
 ldr r3, =GetEquippedWeapon
 bl Trampoline
@@ -42,6 +45,6 @@ Trampoline:
 
 .align
 .ltorg
-SkillTester:
-@Poin SkillTester
+AuraSkillCheck:
+@Poin AuraSkillCheck
 @WORD LanceEdgeID

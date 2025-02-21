@@ -2,6 +2,7 @@
     "files.associations": {
         "*.txt": "markdown",
         "skilltester.h": "c",
-        "bmphase.h": "c"
+        "bmphase.h": "c",
+        "*.event": "c"
     }
 }
