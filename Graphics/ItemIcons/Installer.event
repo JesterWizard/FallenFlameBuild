@@ -1,0 +1,44 @@
+//First free icon past vanilla is 222 / 0xDE 
+ 
+#define BlankIcon 222 
+#define WindIcon 0xca
+#define SleetIcon 0xcb
+#define WilderwindIcon 0xcc
+
+ALIGN 4
+NewItemIcons:
+// Sheet with all icons goes here 
+#incbin "dmp/vanilla_icons.dmp" // Expanded to 255 icons. 
+
+#define ItemIconEntry(ItemIconID) "ORG NewItemIcons + (ItemIconID*128)"
+
+//Image Data 
+ 
+PUSH 
+ 
+ItemIconEntry(BlankIcon) 
+#incbin "dmp/Blank.dmp" 
+ 
+ItemIconEntry(WindIcon) 
+#incbin "dmp/Wind.dmp" 
+
+ItemIconEntry(SleetIcon) 
+#incbin "dmp/Sleet.dmp"
+
+ItemIconEntry(WilderwindIcon) 
+#incbin "dmp/Wilderwind.dmp"
+ 
+POP 
+
+//#include "GeneratedInstaller.event"
+
+PUSH
+ORG $36B4
+POIN NewItemIcons
+ORG $3788
+POIN NewItemIcons
+POP
+
+
+
+

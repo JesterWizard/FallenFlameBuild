@@ -58,14 +58,25 @@ ReinforcementEvent(Wave6)
 ENDA
 
 CharacterBasedEvents:
+CharacterEventBothWays(0x7, RecruitTalk, Wren, Innes)
+CharacterEventBothWays(0x8, RecruitTalk, Nuri, Innes)
 END_MAIN
+
+RecruitTalk:
+MUSS 0x30
+Text(HouseText)
+REMA
+CUSA Innes//Innes joins the party!
+MURE 0x05 //Shifts back to map music
+NoFade
+ENDA
 
 LocationBasedEvents:
-Chest(RedGem,14,14)
-Chest(RedGem,14,1)
+Door(13,0)
+Door(13,13)
+Chest(Barrier,14,14)
+Chest(Horseslayer,14,1)
 END_MAIN
-
-
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
@@ -101,10 +112,10 @@ UNIT Ross LncFighter Wren Level(1, Ally, 0) [8,6] 0x00 0x00 0x0 0x00 [0x00] NoAI
 UNIT
 
 NewCrew:
-UNIT Iara Mage_F Wren Level(1, Ally, 0) [6,6] 0x00 0x00 0x0 0x00 [Wind, Vulnerary] NoAI 
-UNIT Nuri AxeCavF Wren Level(1, Ally, 0) [6,5] 0x00 0x00 0x0 0x00 [IronAxe, SteelAxe] NoAI 
-UNIT Gad Thief Wren Level(3, Ally, 0) [8,5] 0x00 0x00 0x0 0x00 [IronSword, Vulnerary] NoAI 
-UNIT Fado Swordmaster Wren Level(5, NPC, 0) [7,8] 0x00 0x00 0x0 0x00 [IronSword, Vulnerary] AttackInRangeAI
+UNIT Iara Mage_F Wren Level(1, Ally, 0) [6,6] 0x00 0x00 0x0 0x00 [Wind, Sleet, Vulnerary] NoAI 
+UNIT Nuri AxeCavF Wren Level(1, Ally, 0) [6,5] 0x00 0x00 0x0 0x00 [IronAxe, SteelAxe, Vulnerary] NoAI 
+UNIT Gad Thief Wren Level(4, Ally, 0) [8,5] 0x00 0x00 0x0 0x00 [IronSword, Vulnerary] NoAI 
+UNIT Fado Swordmaster Wren Level(10, NPC, 0) [7,8] 0x00 0x00 0x0 0x00 [IronSword, Vulnerary] AttackInRangeAI
 UNIT Ismaire Queen Wren Level(1, NPC, 0) [7,4] 0x00 0x00 0x0 0x00 [0x00] DoNothing  
 UNIT
 
@@ -119,8 +130,8 @@ UNIT 0x80 SwordCav Wizvil Level(1, Enemy, 1) [0,13] 0x00 0x00 0x0 0x00 [SteelSwo
 UNIT 0x80 SwordCav Wizvil Level(1, Enemy, 1) [1,14] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
 UNIT 0x80 SwordCav Wizvil Level(1, Enemy, 1) [11,14] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
 UNIT 0x80 SwordCav Wizvil Level(1, Enemy, 1) [10,13] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
-UNIT 0x80 Barbarian Wizvil Level(1, Enemy, 1) [0,0] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
-UNIT Innes LanceCav Wizvil Level(1, Enemy, 0) [3,6] 0x00 0x00 0x0 0x00 [SteelLance, Horseslayer] DoNothing 
+UNIT 0x80 Barbarian Wizvil Level(1, Enemy, 1) [0,0] 0x00 0x00 0x0 0x00 [SteelAxe] [0x0,0xE, 0xC, 0x0]
+UNIT Innes LanceCav Wizvil Level(1, Enemy, 0) [3,6] 0x00 0x00 0x0 0x00 [SteelLance, Horseslayer, Vulnerary] DoNothing 
 UNIT
 
 Wave1:
@@ -138,8 +149,8 @@ UNIT 0x80 Archer Wizvil Level(2, Enemy, 1) [14,10] 0x00 0x00 0x0 0x00 [IronBow] 
 UNIT
 
 Wave3:
-UNIT 0x80 Barbarian Wizvil Level(2, Enemy, 1) [1,0] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
-UNIT 0x80 Barbarian Wizvil Level(2, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 Barbarian Wizvil Level(2, Enemy, 1) [1,0] 0x00 0x00 0x0 0x00 [SteelAxe] [0x0,0xE, 0xC, 0x0]
+UNIT 0x80 Barbarian Wizvil Level(2, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [SteelAxe] [0x0,0xE, 0xC, 0x0]
 UNIT 0x80 DarkMage Wizvil Level(2, Enemy, 1) [14,3] 0x00 0x00 0x0 0x00 [Fire] PursueWithoutHeedAI 
 UNIT 0x80 Archer Wizvil Level(2, Enemy, 1) [14,4] 0x00 0x00 0x0 0x00 [IronBow] PursueWithoutHeedAI
 UNIT
@@ -152,24 +163,21 @@ UNIT 0x80 SwordCav Wizvil Level(2, Enemy, 1) [14,10] 0x00 0x00 0x0 0x00 [SteelSw
 UNIT
 
 Wave5:
-UNIT 0x80 Barbarian Wizvil Level(3, Enemy, 1) [1,0] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 Barbarian Wizvil Level(3, Enemy, 1) [1,0] 0x00 0x00 0x0 0x00 [SteelAxe] [0x0,0xE, 0xC, 0x0]
 UNIT 0x80 DarkMage Wizvil Level(3, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [Fire] PursueWithoutHeedAI 
 UNIT 0x80 DarkMage Wizvil Level(3, Enemy, 1) [14,3] 0x00 0x00 0x0 0x00 [Fire] PursueWithoutHeedAI 
 UNIT 0x80 Archer Wizvil Level(3, Enemy, 1) [14,4] 0x00 0x00 0x0 0x00 [IronBow] PursueWithoutHeedAI
 UNIT
 
 Wave6:
-UNIT 0x80 LncFighter Wizvil Level(3, Enemy, 1) [1,0] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
 UNIT 0x80 AxeCav Wizvil Level(3, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
-UNIT 0x80 LncFighter Wizvil Level(3, Enemy, 1) [1,0] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
-UNIT 0x80 SwordCav Wizvil Level(3, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT 0x80 SwordCav Wizvil Level(3, Enemy, 1) [1,0] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
 UNIT 0x80 AxeFighter Wizvil Level(3, Enemy, 1) [14,3] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
 UNIT 0x80 SwdFighter Wizvil Level(3, Enemy, 1) [14,4] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
-UNIT 0x80 AxeFighter Wizvil Level(3, Enemy, 1) [0,10] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 AxeFighter Wizvil Level(3, Enemy, 1) [0,9] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
 UNIT 0x80 SwdFighter Wizvil Level(3, Enemy, 1) [0,8] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
-UNIT 0x80 WyvernRider Wizvil Level(2, Enemy, 1) [0,10] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
-UNIT 0x80 WyvernRider Wizvil Level(2, Enemy, 1) [0,10] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
-UNIT 0x80 WyvernRider Wizvil Level(2, Enemy, 1) [0,10] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x80 AxeCav Wizvil Level(2, Enemy, 1) [6,14] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x80 AxeCav Wizvil Level(2, Enemy, 1) [8,14] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
 UNIT
 
 SetGameOver:
@@ -183,6 +191,19 @@ ENUF 0x9 //allow event to repeat
 LABEL 2
 NoFade
 ENDA
+
+AI2PointerTable(0xE,SeekWallsAI)
+SeekWallsAI:
+GetEnemyInCoefMovement(OneMove)
+ConditionalGoto(0, LT, 1)
+SeekWalls
+LoopAI
+Label(1)
+ActionInRange
+LoopAI
+
+OneMove:
+defMovementCoefficient(0x1)
 
 BeginningScene:
 /*

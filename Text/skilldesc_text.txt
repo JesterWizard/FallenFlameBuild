@@ -1855,3 +1855,8 @@ enemies take +2 Dmg.[X]
 ## SD_DracoLord
 Draco Lord: Dragon enemies within 2 tiles[N]
 deal -4 damage and receive +4 damage.[X]
+
+## SD_SuperiorShot
+Superior Shot:[N]
+This unit gains WTA over[N]
+bow-wielding enemies.[X]

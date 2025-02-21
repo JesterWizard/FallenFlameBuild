@@ -1435,7 +1435,11 @@
 
 // Draco lord: Dragon enemies within three spaces take and deal +4/-4 damage.
 // By Jester
-#define DracoLordID 2555
+#define DracoLordID 255
+
+// Superior Shot: This unit gains WTA over bow-wielding enemies.
+// By Jester
+#define SuperiorShotID 255
 
 //Biorhythm Skills: Double or halve biorhythm effects.
 //By Sme

@@ -116,6 +116,18 @@ Cost[X]
 A scroll that teaches[N]
 a skill when used.[X]
 
+## DefendObj
+Defend[X]
+
+## RedMagDesc
+Red magic.[X]
+
+## BlueMagDesc
+Blue magic.[X]
+
+## GreenMagDesc
+Green magic.[X]
+
 ## WindID
 Wind[X]
 

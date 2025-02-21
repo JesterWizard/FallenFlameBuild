@@ -62,7 +62,7 @@ UNIT
 
 Units2:
 UNIT Shamira Knight_F Wren Level(4, Ally, 0) [4,7] 0x00 0x00 0x0 0x00 [SteelLance, Javelin, IronSword] NoAI 
-UNIT Huginn AxeFighter Wren Level(6, Ally, 0) [4,8] 0x00 0x00 0x0 0x00 [IronAxe, SteelAxe, Vulnerary] NoAI 
+UNIT Huginn AxeFighter Wren Level(1, Ally, 0) [4,8] 0x00 0x00 0x0 0x00 [IronAxe, SteelAxe, Vulnerary] NoAI 
 UNIT Orvar Archer Wren Level(4, Ally, 0) [3,9] 0x00 0x00 0x0 0x00 [IronBow, SteelBow] NoAI
 UNIT
 

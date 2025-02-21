@@ -1,4 +1,40 @@
 PUSH
+
+  ORG $C5830
+  POIN NewTitleScroll
+  
+  ORG $C5808
+  POIN RemoveOP
+  
+POP
+
+NewTitleScroll:
+#incext Png2Dmp "MiscGraphics/TitleScroll.png" --lz77
+
+RemoveOP:
+#incext Png2Dmp "MiscGraphics/OPLOGOREMOVE.png" --lz77
+
+//Stat screen
+PUSH
+ORG $88638
+POIN NewStatScreen
+ORG $88620
+POIN RemoveGlowy
+ORG $88640
+POIN NewStatScreenPal
+POP
+
+NewStatScreen:
+#incext Png2Dmp "MiscGraphics/StatScreen.png" --lz77
+NewStatScreenPal:
+#incext Png2Dmp "MiscGraphics/StatScreen.png" --palette-only
+RemoveGlowy:
+#incext Png2Dmp "MiscGraphics/RemoveGlowy.png" --lz77
+
+//TitleBG
+#include "TitleBG/titlebackgroundinstaller.event"
+
+PUSH
 ORG $59EE20
 #incext Png2Dmp "MiscGraphics/player.png" --palette-only
 POP
@@ -23,8 +59,15 @@ ORG $59EEA0
 #incext Png2Dmp "MiscGraphics/fourth.png" --palette-only
 POP
 
+
+
 //Installers
 #include "Map Sprites/Map Sprites Installer.event"
 
 #include "BattleScreen/Installer.event"
+
 #include "CSAFE8/Master Spell Animation Installer.event"
+
+#include "ItemIcons/Installer.event"
+
+#include "UIElements/Menu Graphics Installer.event"
