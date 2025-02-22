@@ -17,6 +17,6 @@ RangeSkill(PointBlankID, PointBlankBonus)
 RangeSkill(TomeRangeUpID, TomeRangeBonus)
 RangeSkill(HighGroundID, HighGroundBonus)
 RangeSkill(RunningStartID, RunningStartBonus)
-RangeSKill(SureStanceID, SureStanceBonus)
+RangeSkill(SureStanceID, SureStanceBonus)
 RangeSkillListEnd
 

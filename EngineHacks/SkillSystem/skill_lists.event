@@ -7,6 +7,7 @@ ALIGN 4
 
 EirikaLordSkillList:
 BYTE 1 SwordEdgeID
+BYTE 1 SureStanceID
 BYTE 00 00
 ALIGN 4
 
@@ -26,7 +27,7 @@ BYTE 00 00
 ALIGN 4
 
 PaladinSkillList:
-BYTE 255 SwapID
+BYTE 1 SwapID
 BYTE 1 SwordEdgeID
 BYTE 00 00
 ALIGN 4
