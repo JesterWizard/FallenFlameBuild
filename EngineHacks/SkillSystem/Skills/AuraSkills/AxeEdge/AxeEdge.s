@@ -31,9 +31,9 @@ bl Trampoline
 cmp r0, #WTYPE_LANCE
 bne End
 
-@ Subtract +2 battle struct ATK from Lance user
-mov r1, #0x5A
-ldrsh r0, [r4, r1] @atk
+@ Subtract +2 battle struct DEF from Lance user
+mov r1, #0x5C
+ldrsh r0, [r4, r1] @def
 sub r0, #2
 strh r0, [r4,r1]
 
