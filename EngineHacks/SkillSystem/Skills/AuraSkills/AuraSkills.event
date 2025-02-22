@@ -179,6 +179,24 @@ POIN AuraSkillCheck
 WORD PathfinderID
 
 ALIGN 4
+SwordEdge:
+#incbin "SwordEdge/SwordEdge.dmp"
+POIN NewAuraSkillCheck
+WORD SwordEdgeID
+
+ALIGN 4
+LanceEdge:
+#incbin "LanceEdge/LanceEdge.dmp"
+POIN NewAuraSkillCheck
+WORD LanceEdgeID
+
+ALIGN 4
+AxeEdge:
+#incbin "AxeEdge/AxeEdge.dmp"
+POIN NewAuraSkillCheck
+WORD AxeEdgeID
+
+ALIGN 4
 DracoLord:
 #incbin "DracoLord/DracoLord.dmp"
 POIN NewAuraSkillCheck

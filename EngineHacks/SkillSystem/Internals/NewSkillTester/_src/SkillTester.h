@@ -1,4 +1,4 @@
-#include "gbafe.h"
+#include "../include/gbafe.h"
 
 typedef struct SkillBuffer SkillBuffer;
 typedef struct AuraSkillBuffer AuraSkillBuffer;
