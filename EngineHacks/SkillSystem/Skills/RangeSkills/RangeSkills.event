@@ -21,3 +21,7 @@ HighGroundBonus:
 ALIGN 4
 RunningStartBonus:
 #incbin "RunningStart/RunningStart.dmp"
+
+ALIGN 4
+SureStanceBonus:
+#incbin "SureStance/SureStance.dmp"

@@ -1441,6 +1441,9 @@
 // By Jester
 #define SuperiorShotID 255
 
+// Sure Stance: Unit can counter attack any ranged attack from any distance
+#define SureStanceID 4
+
 //Biorhythm Skills: Double or halve biorhythm effects.
 //By Sme
 #define TempestID 255 //Requires Biorhythm
@@ -1449,7 +1452,7 @@
 
 //Display-Only Skills
 
-#define CunningID 4
+#define CunningID 255
 #define NiceThighsID 115
 #define PersonalityID 116
 

@@ -1216,5 +1216,9 @@ ORG SkillIcon(DracoLordID)
 ORG SkillIcon(SuperiorShotID)
 #incbin "SkillIcons/Acrobat.dmp"
 
+ORG SkillIcon(SureStanceID)
+#incbin "SkillIcons/Acrobat.dmp"
+
+
 ORG SkillIcons+0x8000
 
