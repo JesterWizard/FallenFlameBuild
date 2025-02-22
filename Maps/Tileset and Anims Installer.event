@@ -1,0 +1,27 @@
+
+//ObjectMap
+ALIGN 4
+BlumariCastleObjects:
+#incext Png2Dmp "Tileset/BlumariCastleObj.png" --lz77
+
+EventPointerTable(0x2E, BlumariCastleObjects)
+
+//Palettes
+ALIGN 4
+BlumariCastle:
+#incbin "Tileset/BlumariCastleSet.pal.bin"
+
+EventPointerTable(0x34, BlumariCastle)
+
+ALIGN 4
+BlumariFields:
+#incbin "Tileset/BlumariFieldsSet.pal.bin"
+
+EventPointerTable(0x2, BlumariFields)
+
+//TileConfig
+ALIGN 4
+BlumariCastleConfig:
+#incext compress "Tileset/BlumariCastle.mapchip_config" //This is the configuration of the tiles and their patterns.
+
+EventPointerTable(0x30, BlumariCastleConfig)
