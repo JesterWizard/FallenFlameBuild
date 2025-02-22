@@ -31,10 +31,10 @@ bl Trampoline
 cmp r0, #WTYPE_SWORD
 bne End
 
-@add +2 battle struct DEF to skill holder
-mov r1, #0x5c
+@subtract +2 battle struct DEF from Sword user
+mov r1, #0x5C
 ldrsh r0, [r4, r1] @def
-add r0, #2
+sub r0, #2
 strh r0, [r4,r1]
 
 End:
