@@ -26,9 +26,9 @@ Warding Grace / Mystic Menace
 Adjacent magic wielding enemies deal -8 Dmg.
 Adjacent magic wielding enemies suffer -8 Res.
 
-Veteran Axe / Veteran Blade
-~~Adjacent Axe wielding allies gain WTA vs Axe wielding foes.~~
-Adjacent Sword wielding allies gain WTA vs Sword wielding foes.
+~~Veteran Axe / Veteran Blade
+Adjacent Axe wielding allies gain WTA vs Axe wielding foes.
+Adjacent Sword wielding allies gain WTA vs Sword wielding foes.~~
 
 Guiding Eyes
 Adjacent allies gain +15 Hit when attacking at 3 range or more.
