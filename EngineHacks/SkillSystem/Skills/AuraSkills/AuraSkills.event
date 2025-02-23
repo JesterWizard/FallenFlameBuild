@@ -210,5 +210,13 @@ WORD VeteranAxeID
 WORD HITBonus
 WORD ATKBonus
 
+ALIGN 4
+VeteranBlade:
+#incbin "VeteranBlade/VeteranBlade.dmp"
+POIN NewAuraSkillCheck
+WORD VeteranBladeID
+WORD HITBonus
+WORD ATKBonus
+
 #include "ClassTypeSkills/ClassTypeSkills.event"
 

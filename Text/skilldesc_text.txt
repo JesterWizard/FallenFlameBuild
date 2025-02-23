@@ -1870,3 +1870,8 @@ ranged attack from any distance.[X]
 Veteran Axe:[N]
 Adjacent Axe wielding allies[N]
 gain WTA vs Axe wielding foes.[X]
+
+## SD_VeteranBlade
+Veteran Blade:[N]
+Adjacent Sword wielding allies[N]
+gain WTA vs Sword wielding foes.[X]
