@@ -1865,3 +1865,8 @@ bow-wielding enemies.[X]
 Sure Stance:[N]
 Allows the unit to counter attack any[N]
 ranged attack from any distance.[X]
+
+## SD_VeteranAxe
+Veteran Axe:[N]
+Adjacent Axe wielding allies[N]
+gain WTA vs Axe wielding foes.[X]

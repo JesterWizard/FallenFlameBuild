@@ -1442,7 +1442,12 @@
 #define SuperiorShotID 255
 
 // Sure Stance: Unit can counter attack any ranged attack from any distance
+// By Jester
 #define SureStanceID 255
+
+// Veteran Axe: Adjacent Axe wielding allies gain WTA vs Axe wielding foes.
+// By Jester 
+#define VeteranAxeID 255
 
 //Biorhythm Skills: Double or halve biorhythm effects.
 //By Sme
@@ -1452,7 +1457,7 @@
 
 //Display-Only Skills
 
-#define CunningID 255
+#define CunningID 4
 #define NiceThighsID 115
 #define PersonalityID 116
 

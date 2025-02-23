@@ -27,7 +27,7 @@ Adjacent magic wielding enemies deal -8 Dmg.
 Adjacent magic wielding enemies suffer -8 Res.
 
 Veteran Axe / Veteran Blade
-Adjacent Axe wielding allies gain WTA vs Axe wielding foes.
+~~Adjacent Axe wielding allies gain WTA vs Axe wielding foes.~~
 Adjacent Sword wielding allies gain WTA vs Sword wielding foes.
 
 Guiding Eyes

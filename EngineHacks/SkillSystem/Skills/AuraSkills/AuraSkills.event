@@ -202,5 +202,13 @@ DracoLord:
 POIN NewAuraSkillCheck
 WORD DracoLordID
 
+ALIGN 4
+VeteranAxe:
+#incbin "VeteranAxe/VeteranAxe.dmp"
+POIN NewAuraSkillCheck
+WORD VeteranAxeID
+WORD HITBonus
+WORD ATKBonus
+
 #include "ClassTypeSkills/ClassTypeSkills.event"
 
