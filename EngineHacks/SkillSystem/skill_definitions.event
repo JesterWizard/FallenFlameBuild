@@ -1442,7 +1442,7 @@
 #define SuperiorShotID 255
 
 // Sure Stance: Unit can counter attack any ranged attack from any distance
-#define SureStanceID 4
+#define SureStanceID 255
 
 //Biorhythm Skills: Double or halve biorhythm effects.
 //By Sme
