@@ -348,6 +348,7 @@ NegatedSkillEntry(DracoLordID)
 NegatedSkillEntry(SuperiorShotID)
 NegatedSkillEntry(SureStanceID)
 NegatedSkillEntry(VeteranAxeID)
+NegatedSkillEntry(VeteranBladeID)
 
 
 /*
