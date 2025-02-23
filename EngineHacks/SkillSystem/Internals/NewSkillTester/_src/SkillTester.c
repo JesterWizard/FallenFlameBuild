@@ -283,20 +283,20 @@ bool SkillTester(struct Unit* unit, u8 skillID) {
 bool NewAuraSkillCheck(struct Unit* unit, u8 skillID, int allyOption, int maxRange) {
     s8(*pAllegianceChecker)(int, int) = ((allyOption & 1) ? AreUnitsAllied : IsSameAllegiance);
 
-#if defined(SwordEdgeID)
-    if (skillID == SwordEdgeID && GetItemType(GetUnitEquippedWeapon(unit)) != ITYPE_SWORD)
-        return FALSE;
-#endif
+// #if defined(SwordEdgeID)
+//     if (skillID == SwordEdgeID && GetItemType(GetUnitEquippedWeapon(unit)) != ITYPE_SWORD)
+//         return FALSE;
+// #endif
 
-#if defined(LanceEdgeID)
-    if (skillID == LanceEdgeID && GetItemType(GetUnitEquippedWeapon(unit)) != ITYPE_LANCE)
-        return FALSE;
-#endif
+// #if defined(LanceEdgeID)
+//     if (skillID == LanceEdgeID && GetItemType(GetUnitEquippedWeapon(unit)) != ITYPE_LANCE)
+//         return FALSE;
+// #endif
 
-#if defined(AxeEdgeID)
-    if (skillID == AxeEdgeID && GetItemType(GetUnitEquippedWeapon(unit)) != ITYPE_AXE)
-        return FALSE;
-#endif
+// #if defined(AxeEdgeID)
+//     if (skillID == AxeEdgeID && GetItemType(GetUnitEquippedWeapon(unit)) != ITYPE_AXE)
+//         return FALSE;
+// #endif
 
     if (skillID == 0)   {return TRUE;}
     if (skillID == 255) {return FALSE;}

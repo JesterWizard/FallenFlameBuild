@@ -1860,3 +1860,13 @@ deal -4 damage and receive +4 damage.[X]
 Superior Shot:[N]
 This unit gains WTA over[N]
 bow-wielding enemies.[X]
+
+## SD_SureStance
+Sure Stance:[N]
+Allows the unit to counter attack any[N]
+ranged attack from any distance.[X]
+
+## SD_VeteranAxe
+Veteran Axe:[N]
+Adjacent Axe wielding allies[N]
+gain WTA vs Axe wielding foes.[X]
