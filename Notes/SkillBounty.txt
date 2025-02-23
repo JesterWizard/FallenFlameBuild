@@ -34,8 +34,8 @@ Guiding Eyes
 Adjacent allies gain +15 Hit when attacking at 3 range or more.
 (So targetting units with status staves, siege tomes, ballista or longbows, etc.)
 
-Mountainman
-Avo bonuses from terrain also become Hit bonuses.
+~~Mountainman
+Avo bonuses from terrain also become Hit bonuses.~~
 
 ~~Superior Shot
 Grants WTA over Bow wielding enemies.~~

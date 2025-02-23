@@ -1457,6 +1457,10 @@
 //By Jester
 #define MountainManID 255
 
+//Woodfeller: Reverse AVO terrain bonuses from adjacent Lance wielding foes.
+//By Jester
+#define WoodfellerID 255
+
 //Biorhythm Skills: Double or halve biorhythm effects.
 //By Sme
 #define TempestID 255 //Requires Biorhythm

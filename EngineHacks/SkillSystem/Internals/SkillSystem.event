@@ -350,6 +350,7 @@ NegatedSkillEntry(SureStanceID)
 NegatedSkillEntry(VeteranAxeID)
 NegatedSkillEntry(VeteranBladeID)
 NegatedSkillEntry(MountainManID)
+NegatedSkillEntry(WoodfellerID)
 
 
 /*

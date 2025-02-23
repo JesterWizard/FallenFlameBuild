@@ -218,5 +218,11 @@ WORD VeteranBladeID
 WORD HITBonus
 WORD ATKBonus
 
+ALIGN 4
+Woodfeller:
+#incbin "Woodfeller/Woodfeller.dmp"
+POIN NewAuraSkillCheck
+WORD WoodfellerID
+
 #include "ClassTypeSkills/ClassTypeSkills.event"
 
