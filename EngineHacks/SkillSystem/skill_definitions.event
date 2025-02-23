@@ -1453,6 +1453,10 @@
 // By Jester 
 #define VeteranBladeID 255
 
+//MountainMan: AVO bonuses from terrain also become HIT bonuses.
+//By Jester
+#define MountainManID 255
+
 //Biorhythm Skills: Double or halve biorhythm effects.
 //By Sme
 #define TempestID 255 //Requires Biorhythm

@@ -1875,3 +1875,8 @@ gain WTA vs Axe wielding foes.[X]
 Veteran Blade:[N]
 Adjacent Sword wielding allies[N]
 gain WTA vs Sword wielding foes.[X]
+
+## SD_MountainMan
+Mountain Man:[N]
+AVO bonuses from terrain[N]
+also become HIT bonuses.[X]

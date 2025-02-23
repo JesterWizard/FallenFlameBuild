@@ -488,6 +488,12 @@ Decapitator:
 POIN SkillTester
 WORD DecapitatorID
 
+ALIGN 4
+MountainMan:
+#incbin "MountainMan/MountainMan.dmp"
+POIN SkillTester
+WORD MountainManID
+
 #include "KeenFighter/Installer.event" 
 #include "FlankSwarmScale/Installer.event" 
 
