@@ -1,6 +1,6 @@
 .thumb
-.equ VeteranSwordID, AuraSkillCheck+4
-.equ HITBonus, VeteranSwordID+4
+.equ VeteranBladeID, AuraSkillCheck+4
+.equ HITBonus, VeteranBladeID+4
 .equ ATKBonus, HITBonus+4
 
 WTYPE_SWORD       = 0x00
@@ -21,7 +21,7 @@ CheckSkill:
 ldr r0, AuraSkillCheck
 mov lr, r0
 mov r0, r4 @attacker
-ldr r1, VeteranSwordID
+ldr r1, VeteranBladeID
 mov r2, #0 @can trade
 mov r3, #1 @range
 .short 0xf800

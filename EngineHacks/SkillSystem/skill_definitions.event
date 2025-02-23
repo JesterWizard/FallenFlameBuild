@@ -1449,9 +1449,9 @@
 // By Jester 
 #define VeteranAxeID 255
 
-// Veteran Sword: Adjacent Sword wielding allies gain WTA vs Sword wielding foes.
+// Veteran Blade: Adjacent Sword wielding allies gain WTA vs Sword wielding foes.
 // By Jester 
-#define VeteranSwordID 255
+#define VeteranBladeID 255
 
 //Biorhythm Skills: Double or halve biorhythm effects.
 //By Sme
