@@ -1461,6 +1461,10 @@
 //By Jester
 #define WoodfellerID 255
 
+//Swashbuckler: Reverse AVO terrain bonuses from adjacent axe wielding foes.
+//By Jester
+#define SwashbucklerID 255
+
 //Biorhythm Skills: Double or halve biorhythm effects.
 //By Sme
 #define TempestID 255 //Requires Biorhythm

@@ -224,5 +224,11 @@ Woodfeller:
 POIN NewAuraSkillCheck
 WORD WoodfellerID
 
+ALIGN 4
+Swashbuckler:
+#incbin "Swashbuckler/Swashbuckler.dmp"
+POIN NewAuraSkillCheck
+WORD SwashbucklerID
+
 #include "ClassTypeSkills/ClassTypeSkills.event"
 

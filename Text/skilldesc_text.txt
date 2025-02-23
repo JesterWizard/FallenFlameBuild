@@ -1885,3 +1885,8 @@ also become HIT bonuses.[X]
 Wood Feller:[N]
 Reverse AVO terrain bonuses from[N]
 adjacent Lance wielding foes.[X]
+
+## SD_Swashbuckler
+Swash Buckler:[N]
+Reverse AVO terrain bonuses from[N]
+adjacent Axe wielding foes.[X]
