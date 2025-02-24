@@ -1860,3 +1860,43 @@ deal -4 damage and receive +4 damage.[X]
 Superior Shot:[N]
 This unit gains WTA over[N]
 bow-wielding enemies.[X]
+
+## SD_SureStance
+Sure Stance:[N]
+Allows the unit to counter attack any[N]
+ranged attack from any distance.[X]
+
+## SD_VeteranAxe
+Veteran Axe:[N]
+Adjacent Axe wielding allies[N]
+gain WTA vs Axe wielding foes.[X]
+
+## SD_VeteranBlade
+Veteran Blade:[N]
+Adjacent Sword wielding allies[N]
+gain WTA vs Sword wielding foes.[X]
+
+## SD_MountainMan
+Mountain Man:[N]
+AVO bonuses from terrain[N]
+also become HIT bonuses.[X]
+
+## SD_Woodfeller
+Wood Feller:[N]
+Reverse AVO terrain bonuses from[N]
+adjacent Lance wielding foes.[X]
+
+## SD_Swashbuckler
+Swash Buckler:[N]
+Reverse AVO terrain bonuses from[N]
+adjacent Axe wielding foes.[X]
+
+## SD_HuntersSight
+Hunter's Sight:[N]
+Adjacent allies gain +15 Hit[N]
+when battling at 2 range.[X]
+
+## SD_GuidingEyes
+Guiding Eyes:[N]
+Adjacent allies gain +15 Hit when[N]
+battling at 3 range or more.[X]

@@ -202,5 +202,45 @@ DracoLord:
 POIN NewAuraSkillCheck
 WORD DracoLordID
 
+ALIGN 4
+VeteranAxe:
+#incbin "VeteranAxe/VeteranAxe.dmp"
+POIN NewAuraSkillCheck
+WORD VeteranAxeID
+WORD HITBonus
+WORD ATKBonus
+
+ALIGN 4
+VeteranBlade:
+#incbin "VeteranBlade/VeteranBlade.dmp"
+POIN NewAuraSkillCheck
+WORD VeteranBladeID
+WORD HITBonus
+WORD ATKBonus
+
+ALIGN 4
+Woodfeller:
+#incbin "Woodfeller/Woodfeller.dmp"
+POIN NewAuraSkillCheck
+WORD WoodfellerID
+
+ALIGN 4
+Swashbuckler:
+#incbin "Swashbuckler/Swashbuckler.dmp"
+POIN NewAuraSkillCheck
+WORD SwashbucklerID
+
+ALIGN 4
+HuntersSight:
+#incbin "HuntersSight/HuntersSight.dmp"
+POIN NewAuraSkillCheck
+WORD HuntersSightID
+
+ALIGN 4
+GuidingEyes:
+#incbin "GuidingEyes/GuidingEyes.dmp"
+POIN NewAuraSkillCheck
+WORD GuidingEyesID
+
 #include "ClassTypeSkills/ClassTypeSkills.event"
 

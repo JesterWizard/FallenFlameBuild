@@ -3,19 +3,22 @@
 #define Negative(Number) "0x100 - Number"
 #define TwoWayWTEntry(Strong,Weak,Hit,Mt) "BYTE Strong Weak Hit Mt Weak Strong Negative(Hit) Negative(Mt)"
 
+#define ATKBonus 3
+#define HITBonus 15
+
 WTTable:
-TwoWayWTEntry(Swords,Axes,15,3)
-TwoWayWTEntry(Swords,Anima,15,3)
-TwoWayWTEntry(Lances,Swords,15,3)
-TwoWayWTEntry(Lances,Dark,15,3)
-TwoWayWTEntry(Axes,Lances,15,3)
-TwoWayWTEntry(Axes,Light,15,3)
-TwoWayWTEntry(Anima,Light,15,3)
-TwoWayWTEntry(Anima,Lances,15,3)
-TwoWayWTEntry(Light,Dark,15,3)
-TwoWayWTEntry(Light,Swords,15,3)
-TwoWayWTEntry(Dark,Anima,15,3)
-TwoWayWTEntry(Dark,Axes,15,3)
+TwoWayWTEntry(Swords,Axes, HITBonus, ATKBonus)
+TwoWayWTEntry(Swords,Anima, HITBonus, ATKBonus)
+TwoWayWTEntry(Lances,Swords, HITBonus, ATKBonus)
+TwoWayWTEntry(Lances,Dark, HITBonus, ATKBonus)
+TwoWayWTEntry(Axes,Lances, HITBonus, ATKBonus)
+TwoWayWTEntry(Axes,Light, HITBonus, ATKBonus)
+TwoWayWTEntry(Anima,Light, HITBonus, ATKBonus)
+TwoWayWTEntry(Anima,Lances, HITBonus, ATKBonus)
+TwoWayWTEntry(Light,Dark, HITBonus, ATKBonus)
+TwoWayWTEntry(Light,Swords, HITBonus, ATKBonus)
+TwoWayWTEntry(Dark,Anima, HITBonus, ATKBonus)
+TwoWayWTEntry(Dark,Axes, HITBonus, ATKBonus)
 EndWT //Terminator
 
 PUSH
