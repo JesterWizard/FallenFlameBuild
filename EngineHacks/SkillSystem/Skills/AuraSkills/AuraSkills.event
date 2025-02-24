@@ -230,5 +230,11 @@ Swashbuckler:
 POIN NewAuraSkillCheck
 WORD SwashbucklerID
 
+ALIGN 4
+HuntersSight:
+#incbin "HuntersSight/HuntersSight.dmp"
+POIN NewAuraSkillCheck
+WORD HuntersSightID
+
 #include "ClassTypeSkills/ClassTypeSkills.event"
 

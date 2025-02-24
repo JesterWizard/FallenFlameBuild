@@ -1890,3 +1890,8 @@ adjacent Lance wielding foes.[X]
 Swash Buckler:[N]
 Reverse AVO terrain bonuses from[N]
 adjacent Axe wielding foes.[X]
+
+## SD_HuntersSight
+Hunter's Sight:[N]
+Adjacent allies gain +15 Hit[N]
+when battling at 2 range.[X]

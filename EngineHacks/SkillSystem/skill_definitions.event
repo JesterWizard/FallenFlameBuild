@@ -1465,6 +1465,10 @@
 //By Jester
 #define SwashbucklerID 255
 
+//HuntersSight: Adjacent allies gain +15 Hit when battling at 2 range.
+//By Jester
+#define HuntersSightID 4
+
 //Biorhythm Skills: Double or halve biorhythm effects.
 //By Sme
 #define TempestID 255 //Requires Biorhythm
@@ -1473,7 +1477,7 @@
 
 //Display-Only Skills
 
-#define CunningID 4
+#define CunningID 255
 #define NiceThighsID 115
 #define PersonalityID 116
 

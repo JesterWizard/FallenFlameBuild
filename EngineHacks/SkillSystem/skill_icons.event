@@ -1234,4 +1234,7 @@ ORG SkillIcon(WoodfellerID)
 ORG SkillIcon(SwashbucklerID)
 #incbin "SkillIcons/Acrobat.dmp"
 
+ORG SkillIcon(HuntersSightID)
+#incbin "SkillIcons/Acrobat.dmp"
+
 ORG SkillIcons+0x8000

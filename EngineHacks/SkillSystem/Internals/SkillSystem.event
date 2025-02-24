@@ -352,6 +352,7 @@ NegatedSkillEntry(VeteranBladeID)
 NegatedSkillEntry(MountainManID)
 NegatedSkillEntry(WoodfellerID)
 NegatedSkillEntry(SwashbucklerID)
+NegatedSkillEntry(HuntersSightID)
 
 
 /*
