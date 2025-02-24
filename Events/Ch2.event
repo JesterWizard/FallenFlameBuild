@@ -75,7 +75,7 @@ LocationBasedEvents:
 Door(13,0)
 Door(13,13)
 Chest(Barrier,14,14)
-Chest(Horseslayer,14,1)
+Chest(HandAxe,14,1)
 END_MAIN
 
 MiscBasedEvents:
