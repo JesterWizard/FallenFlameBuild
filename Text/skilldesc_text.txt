@@ -1895,3 +1895,8 @@ adjacent Axe wielding foes.[X]
 Hunter's Sight:[N]
 Adjacent allies gain +15 Hit[N]
 when battling at 2 range.[X]
+
+## SD_GuidingEyes
+Guiding Eyes:[N]
+Adjacent allies gain +15 Hit when[N]
+battling at 3 range or more.[X]

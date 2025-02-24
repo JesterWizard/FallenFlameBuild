@@ -1453,7 +1453,7 @@
 // By Jester 
 #define VeteranBladeID 255
 
-//MountainMan: AVO bonuses from terrain also become HIT bonuses.
+//Mountain Man: AVO bonuses from terrain also become HIT bonuses.
 //By Jester
 #define MountainManID 255
 
@@ -1465,9 +1465,13 @@
 //By Jester
 #define SwashbucklerID 255
 
-//HuntersSight: Adjacent allies gain +15 Hit when battling at 2 range.
+//Hunters Sight: Adjacent allies gain +15 Hit when battling at 2 range.
 //By Jester
-#define HuntersSightID 4
+#define HuntersSightID 255
+
+//Guiding Eyes: Adjacent allies gain +15 Hit when battling at 3 range or more.
+//By Jester
+#define GuidingEyesID 255
 
 //Biorhythm Skills: Double or halve biorhythm effects.
 //By Sme
@@ -1477,7 +1481,7 @@
 
 //Display-Only Skills
 
-#define CunningID 255
+#define CunningID 4
 #define NiceThighsID 115
 #define PersonalityID 116
 

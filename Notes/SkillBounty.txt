@@ -19,8 +19,8 @@ Personal Skills:
 Reverses Avo terrain bonuses from adjacent Lance wielding foes.
 Reverses Avo terrain bonuses from adjacent Axe wielding enemies.~~
 
-Hunter's Sight
-Adjacent allies gain +15 Hit when attacking at 2 range.
+~~Hunter's Sight
+Adjacent allies gain +15 Hit when attacking at 2 range.~~
 
 Warding Grace / Mystic Menace
 Adjacent magic wielding enemies deal -8 Dmg.
@@ -30,9 +30,9 @@ Adjacent magic wielding enemies suffer -8 Res.
 Adjacent Axe wielding allies gain WTA vs Axe wielding foes.
 Adjacent Sword wielding allies gain WTA vs Sword wielding foes.~~
 
-Guiding Eyes
+~~Guiding Eyes
 Adjacent allies gain +15 Hit when attacking at 3 range or more.
-(So targetting units with status staves, siege tomes, ballista or longbows, etc.)
+(So targetting units with status staves, siege tomes, ballista or longbows, etc.)~~
 
 ~~Mountainman
 Avo bonuses from terrain also become Hit bonuses.~~
