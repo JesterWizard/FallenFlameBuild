@@ -182,7 +182,7 @@ BYTE 00 00
 ALIGN 4
 
 PriestSkillList:
-//BYTE 1 GentilhommeID
+BYTE 1 GentilhommeID
 BYTE 00 00
 ALIGN 4
 

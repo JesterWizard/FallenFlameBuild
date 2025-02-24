@@ -212,11 +212,11 @@ Just thought I'd point them out.[X]
 
 ## SD_Demoiselle
 Demoiselle: Male allies within[N]
-2 tiles receive -2 damage.[X]
+2 tiles gain +10 Hit.[X]
 
 ## SD_Gentilhomme
 Gentilhomme: Female allies within[N]
-2 tiles receive -2 damage.[X]
+2 tiles gain +10 Hit.[X]
 
 ## SD_MaleficAura
 Malefic Aura: Enemies within 2[N]
